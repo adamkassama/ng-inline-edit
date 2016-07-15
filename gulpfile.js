@@ -153,8 +153,6 @@ gulp.task('build', ['clean'], function(cb) {
     'uglify',
     'minify',
     'banner',
-    'test-unit',
-    'test-e2e',
     cb);
 });
 
